@@ -1,22 +1,49 @@
 # Análisis de Inversión Pública en Honduras
-**Descripción**  
-Análisis de un dataset de inversión pública en Honduras para identificar su distribución por departamento, sector e institución, así como su evolución en el tiempo
 
-**Pregunta de investigación**  
-¿Cómo se distribuye la inversión pública en Honduras y cómo ha evolucionado a lo largo del tiempo?
+## Descripción
 
-**Fuente de datos**  
-Datos obtenidos del sitio web de la Secretaría de Finanzas de Honduras, bajo licencia Creative Commons Atribución (CCBY SA 4.0).
+Análisis de un conjunto de datos abiertos sobre inversión pública en Honduras, con el objetivo de identificar cómo se distribuyen los recursos según el departamento, sector e institución responsable, así como analizar su evolución durante el período 2019–2025.
 
-**Proceso**  
-* Limpieza de datos en Python (Colab)
-* Análisis y visualización
-* Interpretación de resultados
+## Pregunta de investigación
 
-**Resultados**  
-* Mayor inversión en Francisco Morazán y Cortés
-* Sectores principales: energía, comunicaciones y protección humana
-* Crecimiento de la inversión desde 2022
+**¿Cómo se distribuye la inversión pública en Honduras entre los diferentes departamentos y sectores, y cómo ha evolucionado a lo largo del tiempo?**
 
-**Licencia**  
-Análisis de conjunto de datos abiertos sobre la inversion pública en Honduras © 2026 by Danna Casco y Luis Henriquez is licensed under CC BY-SA 4.0
+## Fuente de datos
+
+Datos obtenidos del portal de la **Secretaría de Finanzas de Honduras (SEFIN)**.
+
+El conjunto de datos se distribuye bajo la licencia **Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)**.
+
+## Herramientas utilizadas
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Proceso
+
+- Carga y exploración inicial del dataset
+- Limpieza y estandarización de los datos
+- Corrección de inconsistencias en nombres de departamentos
+- Revisión de valores faltantes y registros duplicados
+- Análisis por departamento, sector, institución y año
+- Creación de visualizaciones
+- Interpretación de resultados
+
+## Resultados principales
+
+- Francisco Morazán concentra la mayor inversión pública, seguido por Cortés.
+- Los sectores con mayor asignación de recursos son Promoción y Protección Humana, Comunicaciones y Energía.
+- Se identificó una alta concentración de recursos en pocas instituciones.
+- La inversión pública aumentó significativamente a partir de 2022.
+- El nivel más alto de inversión se registró en 2024.
+- En 2025 se observó una disminución, aunque la inversión se mantuvo por encima de años anteriores.
+
+## Licencia
+
+**Análisis de conjunto de datos abiertos sobre la inversión pública en Honduras © 2026 por Danna Casco y Luis Henríquez**
+
+Este proyecto está licenciado bajo **Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)**.
